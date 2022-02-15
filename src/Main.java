@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        task1();
+        task2();
+        task3();
+
+    }
+
+    public static void task1() {
         int[] arr = new int[6];
         Random rn = new Random();
         int min = 0;
@@ -24,8 +31,6 @@ public class Main {
         if (check == 0) {
             System.out.println("Нет");
         }
-//        task2();
-        task3();
 
     }
 
