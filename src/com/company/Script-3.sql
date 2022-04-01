@@ -18,8 +18,21 @@ trainer varchar (50)
 );
 
 insert into visits 
-values (1, 'Maratov Jamin','2011-05-06 15:34' ,'Isakov Kutman');
+values (5, 'Maratov Jamin','2011-05-06 15:34' ,'Isakov Kutman');
 
+insert into visits 
+values (2, 'Ishenov Baky','2011-05-06 14:30' ,'Isakov Kutman');
+
+insert into visits 
+values (3, 'Ulanov Syimyk','2011-05-06 14:27' ,'Isakov Kutman');
+
+insert into visits 
+values (4, 'Akylbekov Shergazy','2011-05-06 15:00' ,'Isakov Kutman');
+
+
+select visitor, visiting_time, trainer
+from visits v 
+order by v.visiting_time asc;
 
 create table trainer(
 full_name varchar (150),
