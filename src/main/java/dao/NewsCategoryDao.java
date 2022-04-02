@@ -1,4 +1,4 @@
-package Dao;
+package dao;
 
 import entities.NewsCategory;
 import org.hibernate.Session;

@@ -1,7 +1,7 @@
 package service;
 
 
-import Dao.NewsCategoryDao;
+import dao.NewsCategoryDao;
 import entities.NewsCategory;
 
 public class NewsCategoryService {
