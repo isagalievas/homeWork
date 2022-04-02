@@ -7,9 +7,9 @@ end_point varchar(100)
 
 insert into routes 
 values 
-(1, '102-A', 'Аламедин-1', 'авторынок Кудайберген'),
-(2, '107-B', 'Тунгуч', '12-микрорайон'),
-(3, '109-C', 'Учкун', 'Автовозкал');
+(1, '102-A', 'Alamedin-1', 'avtorynok Kudaibergen'),
+(2, '107-B', 'Tunguch', '12-mikroraion'),
+(3, '109-C', 'Uchkun', 'Avtovokzal');
 
 create table buses(
 id integer primary key,
@@ -33,12 +33,12 @@ foreign key (bus_id) references buses(id)
 
 insert into drivers 
 values 
-(1, 'Исаков Кутман', 1),
-(2, 'Исаков Кутман', 3),
-(3, 'Исаков Кутман', 2),
-(4, 'Уланов Сыймык', 2),
-(5, 'Ишенов Бакы', 3),
-(6, 'Ишенов Бакы', 2);
+(1, 'Isakov Kutman', 1),
+(2, 'Isakov Kutman', 3),
+(3, 'Isakov Kutman', 2),
+(4, 'Ulanov Syimyk', 2),
+(5, 'Ishenov Baky', 3),
+(6, 'Ishenov Baky', 2);
 
 create table data_log(
 id integer primary key,
